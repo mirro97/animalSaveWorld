@@ -44,7 +44,7 @@ export default function MainBanner() {
       loop={true}
     >
       {dummy.map((banner) => (
-        <SwiperSlide>
+        <SwiperSlide key={banner.key}>
           <Image
             src={banner.bannerImg}
             width={384}
