@@ -9,12 +9,12 @@ interface IProps {
 
 export default function LinkCard({ info, type }: IProps) {
   return (
-    <div className="py-2 px-3 border border-blue-500">
-      <div className="flex items-center">
+    <div className="py-2 px-3 border border-solid rounded-md mb-2 border-lightgray ">
+      <div className="flex items-center mb-2">
         <h2 className="mr-4">{info.title}</h2>
         <div className="flex">
-          {info.tag.map((text) => (
-            <Tag text={text} />
+          {info.tag.map((text, index) => (
+            <Tag key={index} text={text} />
           ))}
         </div>
       </div>
