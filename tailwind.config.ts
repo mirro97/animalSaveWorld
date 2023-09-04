@@ -14,6 +14,9 @@ const config: Config = {
         secondary: "#868e96",
         lightgray: "#dee2e6",
       },
+      fontSize: {
+        xxs: "10px",
+      },
     },
   },
   plugins: [],

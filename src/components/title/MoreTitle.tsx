@@ -10,10 +10,10 @@ export default function MoreTitle({ title, description, link }: IProps) {
   return (
     <div className="flex content-center justify-between items-center mb-1">
       <div>
-        <h2 className="text-base font-bold">{title}</h2>
+        <h2 className="text-lg font-bold">{title}</h2>
         <div className="text-[12px] text-secondary">{description}</div>
       </div>
-      <Link href={link} className="text-sm">
+      <Link href={link} className="text-xs">
         더보기
       </Link>
     </div>

@@ -7,3 +7,8 @@ export type MoreCardType = {
   location: string;
   date: string;
 };
+
+export type LinkImageCardType = Omit<
+  MoreCardType & { img: string; description: string },
+  "tag"
+>;

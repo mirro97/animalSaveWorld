@@ -15,7 +15,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <div className="flex justify-center bg-f1f3f5">
-          <div className="w-[420px] bg-white px-5">{children}</div>
+          <div className="w-[420px] bg-white py-[62px]">{children}</div>
         </div>
       </body>
     </html>
