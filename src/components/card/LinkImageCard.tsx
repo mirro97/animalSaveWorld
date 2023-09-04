@@ -11,7 +11,7 @@ export default function LinkImgaeCard({ info, path }: IProps) {
   return (
     <Link href={`/${path}/${info.id}`} className="py-2 mb-2 ">
       <div className="flex items-center mb-2">
-        <div className="w-[80px] h-[80px] overflow-hidden">
+        <div className="w-[80px] h-[80px] overflow-hidden rounded-md">
           <Image
             className="w-full h-full"
             src={info.img}

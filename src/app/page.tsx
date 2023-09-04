@@ -1,6 +1,7 @@
 import MainBanner from "@/components/banner/MainBanner";
 import LinkCard from "@/components/card/LinkCard";
 import LinkImgaeCard from "@/components/card/LinkImageCard";
+import AppFooter from "@/components/common/AppFooter";
 import SearchHeader from "@/components/header/SearchHeader";
 import MoreTitle from "@/components/title/MoreTitle";
 import { MoreCardType, LinkImageCardType } from "@/types/components";
@@ -96,6 +97,7 @@ export default function Home() {
           ))}
         </section>
       </div>
+      <AppFooter />
     </>
   );
 }

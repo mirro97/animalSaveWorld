@@ -1,8 +1,15 @@
 import { TagType } from "@/types/components";
 
 export const tagColor: { [key in string]: string } = {
-  ALLTIME: "bg-[#B5DAC1]",
-  LUNCH: "bg-[#f4e0b9]",
-  CARPOOL: "bg-[#CCCBD2]",
-  REGULAR: "bg-[#D0EDF3]",
+  ALLTIME: "bg-lightgreen",
+  LUNCH: "bg-lightyellow",
+  CARPOOL: "bg-lightdeepgray",
+  REGULAR: "bg-lightblue",
+};
+
+export const tagTextColor: { [key in string]: string } = {
+  ALLTIME: "text-green",
+  LUNCH: "text-yellow",
+  CARPOOL: "text-deepgray",
+  REGULAR: "text-blue",
 };
