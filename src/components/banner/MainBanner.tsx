@@ -36,13 +36,7 @@ const dummy = [
 
 export default function MainBanner() {
   return (
-    <Swiper
-      pagination={{
-        dynamicBullets: true,
-      }}
-      modules={[Pagination]}
-      loop={true}
-    >
+    <Swiper>
       {dummy.map((banner) => (
         <SwiperSlide key={banner.key}>
           <Image

@@ -10,8 +10,8 @@ const buttonList = [
     text: "홈",
   },
   {
-    type: "getter",
-    path: "/getter",
+    type: "recruitment",
+    path: "/recruitment",
     icon: "dog-icon",
     text: "봉사모집",
   },
